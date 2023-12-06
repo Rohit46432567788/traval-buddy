@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2FFE9;
+}
+
+header {
+    background-color: #557C55;
+    color: #F2FFE9;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2FFE9;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+    background-color: #A6CF98;
+}
+
+.destination-carousel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    border: 1px solid #557C55;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    background-color: #FA7070;
+    color: #F2FFE9;
+}
+
+footer {
+    background-color: #557C55;
+    color: #F2FFE9;
+    text-align: center;
+    padding: 1em;
+}
